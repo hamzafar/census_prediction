@@ -1,0 +1,112 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.6.1
+RVersion: 3.2.2
+Repos: CRAN=https://cran.rstudio.com/
+
+Package: R6
+Source: CRAN
+Version: 2.1.1
+Hash: 20a88b2c9c84aecff2702789a4d102f5
+
+Package: Rcpp
+Source: CRAN
+Version: 0.12.2
+Hash: 1928c2b7372e3f033217335f3fad25a3
+
+Package: RcppArmadillo
+Source: CRAN
+Version: 0.6.300.2.0
+Hash: cebe0c8a29334a4b4a4e9ef8e11aaa94
+Requires: Rcpp
+
+Package: colorspace
+Source: CRAN
+Version: 1.2-6
+Hash: 00bb12245cd975c450cc4a960884fa15
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+Hash: de202f956596a476d09304e3a2ebf1e5
+
+Package: forecast
+Source: CRAN
+Version: 6.2
+Hash: 8f8002ca241fb3c6918f4e215bbea22c
+Requires: Rcpp, RcppArmadillo, colorspace, fracdiff, nnet, timeDate,
+    tseries, zoo
+
+Package: fracdiff
+Source: CRAN
+Version: 1.4-2
+Hash: 75e1920799a698acf5912369675100af
+
+Package: htmltools
+Source: CRAN
+Version: 0.2.6
+Hash: 595e7dea94f5f049dfc1ed739f5161af
+Requires: digest
+
+Package: httpuv
+Source: CRAN
+Version: 1.3.3
+Hash: ad41c96192683a69d291a45192ec8e2b
+Requires: Rcpp
+
+Package: jsonlite
+Source: CRAN
+Version: 0.9.19
+Hash: 4a983f753b6e88ae0f5a6ac152d8cc32
+
+Package: lattice
+Source: CRAN
+Version: 0.20-33
+Hash: d7158cf4e63e8c12cb227738076b37d8
+
+Package: mime
+Source: CRAN
+Version: 0.4
+Hash: b08c52dae92a0a11e64a4deea032ec33
+
+Package: nnet
+Source: CRAN
+Version: 7.3-10
+Hash: 3edac7a8ec380f63ed88283af1ed36d5
+
+Package: packrat
+Source: CRAN
+Version: 0.4.6-1
+Hash: 29eacc43b096c5b1a82c8d54a49b030b
+
+Package: quadprog
+Source: CRAN
+Version: 1.5-5
+Hash: 69000b7dc41b09977dcf781f909d235c
+
+Package: shiny
+Source: CRAN
+Version: 0.12.2
+Hash: 31cd1fe3028ac7ef846adacf8ed5bfd2
+Requires: R6, digest, htmltools, httpuv, jsonlite, mime, xtable
+
+Package: timeDate
+Source: CRAN
+Version: 3012.100
+Hash: 78876c125c98033cd093fa0283469637
+
+Package: tseries
+Source: CRAN
+Version: 0.10-34
+Hash: 9907998383c7d39f42da6c3c84511e57
+Requires: quadprog, zoo
+
+Package: xtable
+Source: CRAN
+Version: 1.8-0
+Hash: 3816a222bb6837b3344d230b54b4c3cc
+
+Package: zoo
+Source: CRAN
+Version: 1.7-12
+Hash: 8ce4a89536cba4fa6023190959de5658
+Requires: lattice
