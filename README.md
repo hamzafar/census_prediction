@@ -10,3 +10,16 @@ The Naïve Answer came in mind from the [Census 2010 History Overview](https://w
 <img src ='https://raw.githubusercontent.com/hamzafar/image_repo/master/Capture.PNG'>
 
 Where Rectangle show the Census, ACS, Economic Census, Business Dynamic Statistics; Blue as Census, Yellow as ACS, Green as Economic Census and Orange as Business Dynamic Statistics. And triangle represents the variables under focus
+
+# Application:
+Generating Data points from 2005 to 2014, we have created a dashboard on R-Shinny that forecast the Census Question at state level. The Dash board can be seen below:
+
+## Dashboard:
+<img src = 'https://raw.githubusercontent.com/hamzafar/census_prediction/master/dashboard.png'>
+
+The Difference in forecasted population is also drawn on map to get better estimation.
+
+### Maps:
+<img src ='https://raw.githubusercontent.com/hamzafar/census_prediction/master/Population%20predicted%20map.PNG'>
+
+The real time application is live on https://hamzafar.shinyapps.io/houseHold/
